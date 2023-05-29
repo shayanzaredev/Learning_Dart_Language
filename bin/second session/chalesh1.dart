@@ -1,4 +1,5 @@
 import 'dart:io';
+
 void main(){
   int pay;
   print("insert number:");

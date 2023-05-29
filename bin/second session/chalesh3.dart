@@ -2,20 +2,21 @@
 import 'dart:io';
 
 void main() {
-  print("input number:");
-  int input_Number = int.parse(stdin.readLineSync()!);
 
+int totalgrate = 0;
+int coursecount=0;
 
-
-  for (var i = 0; i < input_Number; i++) {
+  for (var i = 0; i < 1; i++) {
     print("bookName:");
     String bookName = stdin.readLineSync()!;
 
     print("score:");
     int score = int.parse(stdin.readLineSync()!);
+    totalgrate = totalgrate+score;
+    coursecount++;
 
 // کامل نیست
-
+// while
   }
 
 }
